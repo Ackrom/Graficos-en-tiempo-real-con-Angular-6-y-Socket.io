@@ -1,0 +1,6 @@
+<ng-container *ngIf="graph">
+  <plotly-plot [data]="graph.data" [layout]="graph.layout"></plotly-plot>
+</ng-container>
+<div class="cargando" *ngIf="!graph">
+  <h4 style="display:inline-block">Esperando por los datos del servidor...</h4>
+</div>

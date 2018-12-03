@@ -1,0 +1,12 @@
+.cont{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 0px 2%;
+  gap:10px;
+}
+.center_text{
+  text-align: center;
+}
+.is-inline-block{
+  display: inline-block;
+}
